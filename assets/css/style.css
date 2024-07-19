@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: url(../img/download\ \(2\).gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 2rem;
+    & img{
+        width: 50rem;
+    }
+    & a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+        background-color: #000;
+        border-radius: 5px;
+        transition: all 0.3s;
+        &:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
